@@ -5,7 +5,7 @@ on:
 
 jobs:
   firstjob:
-    run-on: self-hosted
+    runs-on: self-hosted
     steps:
       - name: firstJob script
         shell: bash
